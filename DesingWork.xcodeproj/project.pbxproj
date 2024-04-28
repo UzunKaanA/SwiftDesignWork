@@ -13,6 +13,7 @@
 		922A57522BDAB8D7006E9EF0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 922A57512BDAB8D7006E9EF0 /* Base */; };
 		922A57542BDAB8D8006E9EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 922A57532BDAB8D8006E9EF0 /* Assets.xcassets */; };
 		922A57572BDAB8D8006E9EF0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 922A57562BDAB8D8006E9EF0 /* Base */; };
+		922A57602BDACDD2006E9EF0 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 922A575F2BDACC14006E9EF0 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		922A57532BDAB8D8006E9EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		922A57562BDAB8D8006E9EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		922A57582BDAB8D8006E9EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		922A575F2BDACC14006E9EF0 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		928C79A02BDEBB4A002037D0 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		928C79A12BDEBB4A002037D0 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +67,17 @@
 				922A57532BDAB8D8006E9EF0 /* Assets.xcassets */,
 				922A57552BDAB8D8006E9EF0 /* LaunchScreen.storyboard */,
 				922A57582BDAB8D8006E9EF0 /* Info.plist */,
+				922A575E2BDACB9C006E9EF0 /* Fonts */,
 			);
 			path = DesingWork;
+			sourceTree = "<group>";
+		};
+		922A575E2BDACB9C006E9EF0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				922A575F2BDACC14006E9EF0 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +122,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 922A573E2BDAB8D7006E9EF0;
 			productRefGroup = 922A57482BDAB8D7006E9EF0 /* Products */;
@@ -126,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				922A57542BDAB8D8006E9EF0 /* Assets.xcassets in Resources */,
+				922A57602BDACDD2006E9EF0 /* Pacifico-Regular.ttf in Resources */,
 				922A57572BDAB8D8006E9EF0 /* Base in Resources */,
 				922A57522BDAB8D7006E9EF0 /* Base in Resources */,
 			);
@@ -151,6 +166,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				922A57512BDAB8D7006E9EF0 /* Base */,
+				928C79A02BDEBB4A002037D0 /* tr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +175,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				922A57562BDAB8D8006E9EF0 /* Base */,
+				928C79A12BDEBB4A002037D0 /* tr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -171,6 +188,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -234,6 +252,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -294,6 +313,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DesingWork/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pizza;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -321,6 +341,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DesingWork/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pizza;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
